@@ -34,7 +34,7 @@ if gender == "남자":
     model = model_male
 
 else:
-    nest = st.slider("목 둘레 (cm)", 20.0, 50.0, 40.0)
+    neck = st.slider("목 둘레 (cm)", 20.0, 50.0, 40.0)
     waist = st.slider("허리 둘레 (cm)", 40.0, 120.0, 80.0)
     hip = st.slider("엉덩이 둘레 (cm)", 80.0, 120.0, 90.0)
 
